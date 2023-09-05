@@ -1,0 +1,66 @@
+.my-cart-wrapper{
+    background-color: rgb(234, 228, 240);
+    display: flex;
+    align-items: center;
+    padding-right: 4rem;
+    width: 8rem;
+}
+
+.my-cart button{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cart-sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; /* Ορίστε το πλάτος που θέλετε για το πλαϊνό καλάθι */
+    margin: auto auto;
+    background-color: rgb(188, 140, 140); 
+}
+
+.close-sidebar{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 0px;
+    background-color: red;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.my-total{
+    margin-top: 5rem;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.quantity-handle{
+    justify-content: center;
+    display: flex;
+}
+
+.list-of-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-item{
+    position: relative;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.remove-item{
+    position: absolute;
+    top:0;
+    right: 0;
+    border-radius: 8px;
+    background-color: rgb(188, 140, 140);
+}

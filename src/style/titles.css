@@ -1,0 +1,14 @@
+.titles-wrapper {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(234, 228, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.main-paragraph{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,26 @@
+.item-wrapper{
+    border: 1px solid black;
+    font-family: 'Inter', sans-serif;
+    padding: 1rem;
+    margin: 2rem auto;
+    border-radius: 12px;
+}
+.price{
+    font-weight: bold;
+}
+
+.plus{
+    margin-left: 1rem;
+}
+
+.minus{
+    margin-right: 1rem;
+}
+
+.quantity-control{
+    margin-top: 8px;
+}
+
+.add-to-cart-btn{
+    margin-top: 1rem;
+}
